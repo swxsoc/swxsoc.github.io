@@ -36,7 +36,7 @@ The SWxSOC processing Pipeline makes use of AWS. The following open source tools
 * **[sdc_aws_base_docker_image](https://github.com/HERMES-SOC/sdc_aws_base_docker_image)** - Docker image for the base image for the processing Lambda/Development containers
 * **[MetaTracker](https://github.com/HERMES-SOC/MetaTracker)** - A python package that helps track metadata of Raw Binary and Science Files in a Relational Database
 * **[FSWatcher](https://github.com/HERMES-SOC/sdc_aws_fswatcher)** - A filewatcher system that can be configured to watch a directory for new files and then upload them to an S3 bucket
-* **[S3Watcher](https://github.com/HERMES-SOC/sdc_aws_s3watcher)** - A filewatcher system that can be configured to watch an AWS S3 bucket new files and then download them onto a local machine
+* **[S3Watcher](https://github.com/HERMES-SOC/sdc_aws_s3watcher)** - A filewatcher system that can be configured to watch an AWS S3 bucket for new files and then download them onto a local machine
 * **[sdc_aws_grafana_dashboard_backups](https://github.com/HERMES-SOC/sdc_aws_grafana_dashboard_backups)** - Backs up deployed dashboards as JSON models on https://grafana.hermes.swsoc.smce.nasa.gov/ daily
 
 For more see the [SWxSOC organization page](https://github.com/swxsoc) and the [HERMES repository list](https://github.com/HERMES-SOC/).
