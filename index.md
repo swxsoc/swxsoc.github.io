@@ -4,7 +4,7 @@ layout: default
 
 The Space Weather Science Operations Center is a multi-mission science operations center for the community.
 
-What can we do for you?
+## What can we do for you?
 
 * Pipeline process data files
 * Serve as a primary and backup data center
@@ -17,26 +17,27 @@ Or we can support you to use our open source tools (see below).
 
 # Supported Missions
 
-The SWxSOC is currently supporting the following NASA missions
+The SWxSOC is currently supporting the following NASA missions:
 
-* Heliophysics Environmental and Radiation Measurement Experiment (HERMES), consists of 4 in-situ instruments.
-* solar PolArization and Directivity X-ray Experiment (PADRE), consists of two solar-observing x-ray instruments.
+* **Heliophysics Environmental and Radiation Measurement Experiment (HERMES)** - consists of 4 in-situ instruments
+* **solar PolArization and Directivity X-ray Experiment (PADRE)** - consists of two solar-observing x-ray instruments
 
 # Tools
 
-The SWxSOC processing Pipeline makes use of AWS. The following open source tools have been developed.
-* **[swxsoc](https://github.com/swxsoc/swxsoc)** : A Python package  for core functionality of all SWxSOC mission packages.
-* **[sammi](https://github.com/swxsoc/sammi)** : A Python package for shared attribute and metadata management interface for CDF files.
-* **[hermes_instrument](https://github.com/HERMES-SOC/hermes_instrument)** : A Python package template for instrument packages.
-* **[sdc_aws_pipeline_architecture](https://github.com/HERMES-SOC/sdc_aws_pipeline_architecture)** : AWS CDK code for the file processing pipeline architecture
-* **[sdc_aws_sorting_lambda](https://github.com/HERMES-SOC/sdc_aws_sorting_lambda)** : AWS Lambda code for sorting files into the instrument buckets
-* **[sdc_aws_processing_lambda](https://github.com/HERMES-SOC/sdc_aws_processing_lambda)** : AWS Lambda code for processing files in the instrument buckets
-* **[sdc_aws_artifacts_lambda](https://github.com/HERMES-SOC/sdc_aws_artifacts_lambda)** : AWS Lambda code for generating artifacts such as slack notifications and timestream logs.
-* **[sdc_aws_base_docker_image](https://github.com/HERMES-SOC/sdc_aws_base_docker_image)** : Docker image for the base image for the processing Lambda/Development containers
-* **[MetaTracker](https://github.com/HERMES-SOC/MetaTracker)** :  A python package that helps track metadata of Raw Binary and Science Files in a Relational Database
-* **[FSWatcher](https://github.com/HERMES-SOC/sdc_aws_fswatcher)** : A filewatcher system that can be configured to watch a directory for new files and then upload them to an S3 bucket.
-* **[S3Watcher](https://github.com/HERMES-SOC/sdc_aws_s3watcher)** : A filewatcher system that can be configured to watch an AWS S3 bucket new files and then download them onto a local machine.
-* **[sdc_aws_grafana_dashboard_backups](https://github.com/HERMES-SOC/sdc_aws_grafana_dashboard_backups)** : Backs up deployed dashboards as JSON models on https://grafana.hermes.swsoc.smce.nasa.gov/ daily
+The SWxSOC processing Pipeline makes use of AWS. The following open source tools have been developed:
+
+* **[swxsoc](https://github.com/swxsoc/swxsoc)** - A Python package for core functionality of all SWxSOC mission packages
+* **[sammi](https://github.com/swxsoc/sammi)** - A Python package for shared attribute and metadata management interface for CDF files
+* **[hermes_instrument](https://github.com/HERMES-SOC/hermes_instrument)** - A Python package template for instrument packages
+* **[sdc_aws_pipeline_architecture](https://github.com/HERMES-SOC/sdc_aws_pipeline_architecture)** - AWS CDK code for the file processing pipeline architecture
+* **[sdc_aws_sorting_lambda](https://github.com/HERMES-SOC/sdc_aws_sorting_lambda)** - AWS Lambda code for sorting files into the instrument buckets
+* **[sdc_aws_processing_lambda](https://github.com/HERMES-SOC/sdc_aws_processing_lambda)** - AWS Lambda code for processing files in the instrument buckets
+* **[sdc_aws_artifacts_lambda](https://github.com/HERMES-SOC/sdc_aws_artifacts_lambda)** - AWS Lambda code for generating artifacts such as slack notifications and timestream logs
+* **[sdc_aws_base_docker_image](https://github.com/HERMES-SOC/sdc_aws_base_docker_image)** - Docker image for the base image for the processing Lambda/Development containers
+* **[MetaTracker](https://github.com/HERMES-SOC/MetaTracker)** - A python package that helps track metadata of Raw Binary and Science Files in a Relational Database
+* **[FSWatcher](https://github.com/HERMES-SOC/sdc_aws_fswatcher)** - A filewatcher system that can be configured to watch a directory for new files and then upload them to an S3 bucket
+* **[S3Watcher](https://github.com/HERMES-SOC/sdc_aws_s3watcher)** - A filewatcher system that can be configured to watch an AWS S3 bucket new files and then download them onto a local machine
+* **[sdc_aws_grafana_dashboard_backups](https://github.com/HERMES-SOC/sdc_aws_grafana_dashboard_backups)** - Backs up deployed dashboards as JSON models on https://grafana.hermes.swsoc.smce.nasa.gov/ daily
 
 For more see the [SWxSOC organization page](https://github.com/swxsoc) and the [HERMES repository list](https://github.com/HERMES-SOC/).
 
@@ -51,4 +52,5 @@ For more see the [SWxSOC organization page](https://github.com/swxsoc) and the [
 * [AGU 2025 (Fall Meeting) - IN33E-0400 Standardizing and validating Solar Datasets, the SOLARNET project](https://agu.confex.com/agu/agu25/meetingapp.cgi/Paper/1910471) [https://zenodo.org/records/18600752](https://zenodo.org/records/18600752)
 
 # Contact Us
+
 For more information contact [steven.christe@nasa.gov](mailto:steven.christe@nasa.gov).
