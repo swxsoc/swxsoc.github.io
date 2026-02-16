@@ -266,3 +266,45 @@ a:focus, button:focus {
 img {
     transition: var(--transition);
 }
+
+/* Section dividers with better visual separation */
+#main_content > h1::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+    margin-top: 1rem;
+    border-radius: 2px;
+}
+
+/* Make "Presentations and Publications" section more readable */
+#main_content ul li a[href*="doi.org"],
+#main_content ul li a[href*="zenodo.org"] {
+    display: inline-block;
+    margin-top: 0.25rem;
+}
+
+/* Add visual polish to paragraphs after headings */
+#main_content h1 + p,
+#main_content h2 + p {
+    margin-top: 1.25rem;
+    font-size: 1.1rem;
+}
+
+/* Better spacing for nested content */
+#main_content > * + * {
+    margin-top: 1.5rem;
+}
+
+/* Subtle highlight effect for tool links */
+#main_content ul li a[href*="github.com"] {
+    position: relative;
+    padding: 0.125rem 0.25rem;
+    border-radius: 4px;
+    transition: var(--transition);
+}
+
+#main_content ul li a[href*="github.com"]:hover {
+    background-color: rgba(37, 99, 235, 0.1);
+}
