@@ -34,7 +34,7 @@ The SWxSOC processing Pipeline makes use of AWS. The following open source tools
 * **[instrument_pkg_template](https://github.com/swxsoc/instrument_pkg_template)** : A Python package template for instrument packages.
 * **[sdc_aws_architecture](https://github.com/swxsoc/sdc_aws_architecture)** : Terraform IaC for the file processing pipeline architecture for all missions.
 * **[sdc_aws_sorting_lambda](https://github.com/swxsoc/sdc_aws_sorting_lambda)** : AWS Lambda code for sorting files into the instrument buckets
-* **[sdc_aws_processing_lambda](https://github.com/swxsoc/sdc_aws_processing_lambdas)** : AWS Lambda code for processing files in the instrument buckets
+* **[sdc_aws_processing_lambda](https://github.com/swxsoc/sdc_aws_processing_lambda)** : AWS Lambda code for processing files in the instrument buckets
 * **[sdc_aws_artifacts_lambda](https://github.com/swxsoc/sdc_aws_artifacts_lambda)** : AWS Lambda code for generating artifacts such as Slack or Mattermost notifications and AWS Timestream logs.
 * **[sdc_aws_executor_lambda](https://github.com/swxsoc/sdc_aws_executor_lambda)** : AWS Lambda to trigger CRON-based or scheduled jobs
 * **[sdc_aws_alert_lambda](https://github.com/swxsoc/sdc_aws_alert_lambda) : AWS Lambda for data streaming and alerting using [GCN Kafka](https://gcn.nasa.gov/)
